@@ -1,0 +1,359 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Megadrive arcade stick"
+Date "2021-04-19"
+Rev "1"
+Comp "Ozzyboshi"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R8
+U 1 1 607D1BEF
+P 1900 1350
+F 0 "R8" H 1970 1396 50  0000 L CNN
+F 1 "10K" H 1970 1305 50  0000 L CNN
+F 2 "" V 1830 1350 50  0001 C CNN
+F 3 "~" H 1900 1350 50  0001 C CNN
+	1    1900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 607D1EE3
+P 2400 1350
+F 0 "R7" H 2470 1396 50  0000 L CNN
+F 1 "10K" H 2470 1305 50  0000 L CNN
+F 2 "" V 2330 1350 50  0001 C CNN
+F 3 "~" H 2400 1350 50  0001 C CNN
+	1    2400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 607D23D6
+P 2900 1350
+F 0 "R6" H 2970 1396 50  0000 L CNN
+F 1 "10K" H 2970 1305 50  0000 L CNN
+F 2 "" V 2830 1350 50  0001 C CNN
+F 3 "~" H 2900 1350 50  0001 C CNN
+	1    2900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 607D275B
+P 3450 1350
+F 0 "R5" H 3520 1396 50  0000 L CNN
+F 1 "10K" H 3520 1305 50  0000 L CNN
+F 2 "" V 3380 1350 50  0001 C CNN
+F 3 "~" H 3450 1350 50  0001 C CNN
+	1    3450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 607D2A44
+P 3950 1350
+F 0 "R4" H 4020 1396 50  0000 L CNN
+F 1 "10K" H 4020 1305 50  0000 L CNN
+F 2 "" V 3880 1350 50  0001 C CNN
+F 3 "~" H 3950 1350 50  0001 C CNN
+	1    3950 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 607D2D35
+P 4400 1350
+F 0 "R3" H 4470 1396 50  0000 L CNN
+F 1 "10K" H 4470 1305 50  0000 L CNN
+F 2 "" V 4330 1350 50  0001 C CNN
+F 3 "~" H 4400 1350 50  0001 C CNN
+	1    4400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 607D326D
+P 4900 1350
+F 0 "R2" H 4970 1396 50  0000 L CNN
+F 1 "10K" H 4970 1305 50  0000 L CNN
+F 2 "" V 4830 1350 50  0001 C CNN
+F 3 "~" H 4900 1350 50  0001 C CNN
+	1    4900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 607D35D6
+P 5400 1350
+F 0 "R1" H 5470 1396 50  0000 L CNN
+F 1 "10K" H 5470 1305 50  0000 L CNN
+F 2 "" V 5330 1350 50  0001 C CNN
+F 3 "~" H 5400 1350 50  0001 C CNN
+	1    5400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 607D8CF8
+P 8150 1350
+F 0 "R9" H 8220 1396 50  0000 L CNN
+F 1 "10K" H 8220 1305 50  0000 L CNN
+F 2 "" V 8080 1350 50  0001 C CNN
+F 3 "~" H 8150 1350 50  0001 C CNN
+	1    8150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 607D9601
+P 8550 1350
+F 0 "C1" H 8665 1396 50  0000 L CNN
+F 1 "100nF" H 8665 1305 50  0000 L CNN
+F 2 "" H 8550 1350 50  0001 C CNN
+F 3 "~" H 8550 1350 50  0001 C CNN
+	1    8550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS157 U?
+U 1 1 607DA4EE
+P 6950 2400
+F 0 "U?" H 6950 3481 50  0000 C CNN
+F 1 "74LS157" H 6950 3390 50  0000 C CNN
+F 2 "" H 6950 2400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 6950 2400 50  0001 C CNN
+	1    6950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 607EE0F1
+P 2650 2600
+F 0 "J?" H 2678 2626 50  0000 L CNN
+F 1 "Left" H 2678 2535 50  0000 L CNN
+F 2 "" H 2650 2600 50  0001 C CNN
+F 3 "~" H 2650 2600 50  0001 C CNN
+	1    2650 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 607EF3B1
+P 2650 2800
+F 0 "J?" H 2678 2826 50  0000 L CNN
+F 1 "Right" H 2678 2735 50  0000 L CNN
+F 2 "" H 2650 2800 50  0001 C CNN
+F 3 "~" H 2650 2800 50  0001 C CNN
+	1    2650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 607EF786
+P 2650 3000
+F 0 "J?" H 2678 3026 50  0000 L CNN
+F 1 "A" H 2678 2935 50  0000 L CNN
+F 2 "" H 2650 3000 50  0001 C CNN
+F 3 "~" H 2650 3000 50  0001 C CNN
+	1    2650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 607EFA7D
+P 2650 3200
+F 0 "J?" H 2678 3226 50  0000 L CNN
+F 1 "B" H 2678 3135 50  0000 L CNN
+F 2 "" H 2650 3200 50  0001 C CNN
+F 3 "~" H 2650 3200 50  0001 C CNN
+	1    2650 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 607EFD7F
+P 2650 3400
+F 0 "J?" H 2678 3426 50  0000 L CNN
+F 1 "C" H 2678 3335 50  0000 L CNN
+F 2 "" H 2650 3400 50  0001 C CNN
+F 3 "~" H 2650 3400 50  0001 C CNN
+	1    2650 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 607F0495
+P 2650 3600
+F 0 "J?" H 2678 3626 50  0000 L CNN
+F 1 "Start" H 2678 3535 50  0000 L CNN
+F 2 "" H 2650 3600 50  0001 C CNN
+F 3 "~" H 2650 3600 50  0001 C CNN
+	1    2650 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 607F0721
+P 1400 2600
+F 0 "J?" H 1428 2626 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 1428 2535 50  0000 L CNN
+F 2 "" H 1400 2600 50  0001 C CNN
+F 3 "~" H 1400 2600 50  0001 C CNN
+	1    1400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 607F099C
+P 1400 2800
+F 0 "J?" H 1428 2826 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 1428 2735 50  0000 L CNN
+F 2 "" H 1400 2800 50  0001 C CNN
+F 3 "~" H 1400 2800 50  0001 C CNN
+	1    1400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 607F0D27
+P 1400 3000
+F 0 "J?" H 1428 3026 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 1428 2935 50  0000 L CNN
+F 2 "" H 1400 3000 50  0001 C CNN
+F 3 "~" H 1400 3000 50  0001 C CNN
+	1    1400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 607F1157
+P 1400 3200
+F 0 "J?" H 1428 3226 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 1428 3135 50  0000 L CNN
+F 2 "" H 1400 3200 50  0001 C CNN
+F 3 "~" H 1400 3200 50  0001 C CNN
+	1    1400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 607F1496
+P 1400 3400
+F 0 "J?" H 1428 3426 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 1428 3335 50  0000 L CNN
+F 2 "" H 1400 3400 50  0001 C CNN
+F 3 "~" H 1400 3400 50  0001 C CNN
+	1    1400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 607F17E7
+P 1400 3600
+F 0 "J?" H 1428 3626 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 1428 3535 50  0000 L CNN
+F 2 "" H 1400 3600 50  0001 C CNN
+F 3 "~" H 1400 3600 50  0001 C CNN
+	1    1400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DB9_Female_MountingHoles J?
+U 1 1 60805DF9
+P 6700 4700
+F 0 "J?" V 6572 5255 50  0000 L CNN
+F 1 "DB9_Female_MountingHoles" V 6663 5255 50  0000 L CNN
+F 2 "" H 6700 4700 50  0001 C CNN
+F 3 " ~" H 6700 4700 50  0001 C CNN
+	1    6700 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60807788
+P 8550 3800
+F 0 "#PWR?" H 8550 3550 50  0001 C CNN
+F 1 "GND" H 8555 3627 50  0000 C CNN
+F 2 "" H 8550 3800 50  0001 C CNN
+F 3 "" H 8550 3800 50  0001 C CNN
+	1    8550 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 3800 8550 3400
+Wire Wire Line
+	8150 1200 8550 1200
+Wire Wire Line
+	8150 1500 8150 3750
+Wire Wire Line
+	8150 3750 6800 3750
+Wire Wire Line
+	6000 3750 6000 3000
+Wire Wire Line
+	6000 3000 6450 3000
+Wire Wire Line
+	6800 4400 6800 3750
+Connection ~ 6800 3750
+Wire Wire Line
+	6800 3750 6000 3750
+Wire Wire Line
+	6450 3100 6300 3100
+Wire Wire Line
+	6300 3100 6300 2100
+Wire Wire Line
+	6300 1800 6450 1800
+Wire Wire Line
+	6450 2100 6300 2100
+Connection ~ 6300 2100
+Wire Wire Line
+	6300 2100 6300 1800
+Wire Wire Line
+	6950 3400 6300 3400
+Wire Wire Line
+	6300 3400 6300 3100
+Connection ~ 6300 3100
+Wire Wire Line
+	6950 3400 8550 3400
+Connection ~ 6950 3400
+Connection ~ 8550 3400
+Wire Wire Line
+	8550 3400 8550 1500
+Wire Wire Line
+	6950 1500 6950 1200
+Wire Wire Line
+	6950 1200 8150 1200
+Connection ~ 8150 1200
+Wire Wire Line
+	5400 1200 6950 1200
+Connection ~ 6950 1200
+Wire Wire Line
+	5400 1200 4900 1200
+Connection ~ 5400 1200
+Wire Wire Line
+	4900 1200 4400 1200
+Connection ~ 4900 1200
+Wire Wire Line
+	4400 1200 3950 1200
+Connection ~ 4400 1200
+Wire Wire Line
+	3950 1200 3450 1200
+Connection ~ 3950 1200
+Wire Wire Line
+	3450 1200 2900 1200
+Connection ~ 3450 1200
+Wire Wire Line
+	2900 1200 2400 1200
+Connection ~ 2900 1200
+Wire Wire Line
+	2400 1200 1900 1200
+Connection ~ 2400 1200
+$EndSCHEMATC
