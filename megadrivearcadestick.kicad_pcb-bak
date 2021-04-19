@@ -188,7 +188,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal (layer F.Cu) (tedit 59FED5CB) (tstamp 607E5601)
-    (at 176.53 132.08)
+    (at 137.145001 126.065001)
     (descr "Through hole angled pin header, 1x01, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x01 2.54mm single row")
     (path /607F099C)
@@ -793,7 +793,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal (layer F.Cu) (tedit 59FED5CB) (tstamp 607E57A3)
-    (at 153.67 134.62)
+    (at 123.745001 126.065001)
     (descr "Through hole angled pin header, 1x01, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x01 2.54mm single row")
     (path /60824D7A)
@@ -1382,7 +1382,7 @@
   )
 
   (module Package_DIP:DIP-16_W7.62mm_Socket (layer F.Cu) (tedit 5A02E8C5) (tstamp 607E5944)
-    (at 142.24 67.31)
+    (at 156.445001 87.985001)
     (descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
     (path /607DA4EE)
@@ -1457,8 +1457,8 @@
     )
   )
 
-  (module Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 607E425E)
-    (at 96.52 123.19)
+  (module Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 607E4068)
+    (at 123.395001 118.965001)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7mm width 2.5mm Capacitor")
     (path /607E3FAA)
@@ -1495,7 +1495,7 @@
   )
 
   (module footprints:DB_9F (layer F.Cu) (tedit 5FEB9370) (tstamp 607E4151)
-    (at 93.98 86.36)
+    (at 143.445001 89.174339)
     (descr "D-SUB 9 pin socket, Tyco P/N 4-1634584-2")
     (path /60805DF9)
     (fp_text reference J17 (at 0 -2.5) (layer F.SilkS)
