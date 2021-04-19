@@ -135,132 +135,121 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 6950 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J7
 U 1 1 607EE0F1
-P 2650 2600
-F 0 "J?" H 2678 2626 50  0000 L CNN
-F 1 "Left" H 2678 2535 50  0000 L CNN
-F 2 "" H 2650 2600 50  0001 C CNN
-F 3 "~" H 2650 2600 50  0001 C CNN
-	1    2650 2600
-	1    0    0    -1  
+P 2150 2600
+F 0 "J7" H 2178 2626 50  0000 L CNN
+F 1 "Left" H 2178 2535 50  0000 L CNN
+F 2 "" H 2150 2600 50  0001 C CNN
+F 3 "~" H 2150 2600 50  0001 C CNN
+	1    2150 2600
+	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J8
 U 1 1 607EF3B1
-P 2650 2800
-F 0 "J?" H 2678 2826 50  0000 L CNN
-F 1 "Right" H 2678 2735 50  0000 L CNN
-F 2 "" H 2650 2800 50  0001 C CNN
-F 3 "~" H 2650 2800 50  0001 C CNN
-	1    2650 2800
-	1    0    0    -1  
+P 2150 2800
+F 0 "J8" H 2178 2826 50  0000 L CNN
+F 1 "Right" H 2178 2735 50  0000 L CNN
+F 2 "" H 2150 2800 50  0001 C CNN
+F 3 "~" H 2150 2800 50  0001 C CNN
+	1    2150 2800
+	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J9
 U 1 1 607EF786
-P 2650 3000
-F 0 "J?" H 2678 3026 50  0000 L CNN
-F 1 "A" H 2678 2935 50  0000 L CNN
-F 2 "" H 2650 3000 50  0001 C CNN
-F 3 "~" H 2650 3000 50  0001 C CNN
-	1    2650 3000
-	1    0    0    -1  
+P 2150 3000
+F 0 "J9" H 2178 3026 50  0000 L CNN
+F 1 "A" H 2178 2935 50  0000 L CNN
+F 2 "" H 2150 3000 50  0001 C CNN
+F 3 "~" H 2150 3000 50  0001 C CNN
+	1    2150 3000
+	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J10
 U 1 1 607EFA7D
-P 2650 3200
-F 0 "J?" H 2678 3226 50  0000 L CNN
-F 1 "B" H 2678 3135 50  0000 L CNN
-F 2 "" H 2650 3200 50  0001 C CNN
-F 3 "~" H 2650 3200 50  0001 C CNN
-	1    2650 3200
-	1    0    0    -1  
+P 2150 3200
+F 0 "J10" H 2178 3226 50  0000 L CNN
+F 1 "B" H 2178 3135 50  0000 L CNN
+F 2 "" H 2150 3200 50  0001 C CNN
+F 3 "~" H 2150 3200 50  0001 C CNN
+	1    2150 3200
+	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J11
 U 1 1 607EFD7F
-P 2650 3400
-F 0 "J?" H 2678 3426 50  0000 L CNN
-F 1 "C" H 2678 3335 50  0000 L CNN
-F 2 "" H 2650 3400 50  0001 C CNN
-F 3 "~" H 2650 3400 50  0001 C CNN
-	1    2650 3400
-	1    0    0    -1  
+P 2150 3400
+F 0 "J11" H 2178 3426 50  0000 L CNN
+F 1 "C" H 2178 3335 50  0000 L CNN
+F 2 "" H 2150 3400 50  0001 C CNN
+F 3 "~" H 2150 3400 50  0001 C CNN
+	1    2150 3400
+	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
-U 1 1 607F0495
-P 2650 3600
-F 0 "J?" H 2678 3626 50  0000 L CNN
-F 1 "Start" H 2678 3535 50  0000 L CNN
-F 2 "" H 2650 3600 50  0001 C CNN
-F 3 "~" H 2650 3600 50  0001 C CNN
-	1    2650 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J1
 U 1 1 607F0721
 P 1400 2600
-F 0 "J?" H 1428 2626 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 1428 2535 50  0000 L CNN
+F 0 "J1" H 1428 2626 50  0000 L CNN
+F 1 "Left GND" H 1428 2535 50  0000 L CNN
 F 2 "" H 1400 2600 50  0001 C CNN
 F 3 "~" H 1400 2600 50  0001 C CNN
 	1    1400 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J2
 U 1 1 607F099C
 P 1400 2800
-F 0 "J?" H 1428 2826 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 1428 2735 50  0000 L CNN
+F 0 "J2" H 1428 2826 50  0000 L CNN
+F 1 "Right GND" H 1428 2735 50  0000 L CNN
 F 2 "" H 1400 2800 50  0001 C CNN
 F 3 "~" H 1400 2800 50  0001 C CNN
 	1    1400 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J3
 U 1 1 607F0D27
 P 1400 3000
-F 0 "J?" H 1428 3026 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 1428 2935 50  0000 L CNN
+F 0 "J3" H 1428 3026 50  0000 L CNN
+F 1 "A GND" H 1428 2935 50  0000 L CNN
 F 2 "" H 1400 3000 50  0001 C CNN
 F 3 "~" H 1400 3000 50  0001 C CNN
 	1    1400 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J4
 U 1 1 607F1157
 P 1400 3200
-F 0 "J?" H 1428 3226 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 1428 3135 50  0000 L CNN
+F 0 "J4" H 1428 3226 50  0000 L CNN
+F 1 "B GND" H 1428 3135 50  0000 L CNN
 F 2 "" H 1400 3200 50  0001 C CNN
 F 3 "~" H 1400 3200 50  0001 C CNN
 	1    1400 3200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J5
 U 1 1 607F1496
 P 1400 3400
-F 0 "J?" H 1428 3426 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 1428 3335 50  0000 L CNN
+F 0 "J5" H 1428 3426 50  0000 L CNN
+F 1 "C GND" H 1428 3335 50  0000 L CNN
 F 2 "" H 1400 3400 50  0001 C CNN
 F 3 "~" H 1400 3400 50  0001 C CNN
 	1    1400 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J6
 U 1 1 607F17E7
 P 1400 3600
-F 0 "J?" H 1428 3626 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 1428 3535 50  0000 L CNN
+F 0 "J6" H 1428 3626 50  0000 L CNN
+F 1 "Start GND" H 1428 3535 50  0000 L CNN
 F 2 "" H 1400 3600 50  0001 C CNN
 F 3 "~" H 1400 3600 50  0001 C CNN
 	1    1400 3600
@@ -333,7 +322,7 @@ Wire Wire Line
 	6950 1200 8150 1200
 Connection ~ 8150 1200
 Wire Wire Line
-	5400 1200 6950 1200
+	5400 1200 5850 1200
 Connection ~ 6950 1200
 Wire Wire Line
 	5400 1200 4900 1200
@@ -357,57 +346,209 @@ Wire Wire Line
 	2400 1200 1900 1200
 Connection ~ 2400 1200
 Wire Wire Line
-	1900 1500 1900 3600
+	2900 1500 2900 2500
 Wire Wire Line
-	1900 3600 2450 3600
+	3450 1500 3450 2400
 Wire Wire Line
-	2400 1500 2400 3400
-Wire Wire Line
-	2400 3400 2450 3400
-Wire Wire Line
-	2900 1500 2900 3200
-Wire Wire Line
-	2900 3200 2450 3200
-Wire Wire Line
-	3450 1500 3450 3000
-Wire Wire Line
-	3450 3000 2450 3000
-Wire Wire Line
-	3950 1500 3950 2800
-Wire Wire Line
-	3950 2800 2450 2800
-Wire Wire Line
-	4400 1500 4400 2600
-Wire Wire Line
-	4400 2600 2450 2600
+	4400 1500 4400 1900
 $Comp
-L Connector:Conn_01x01_Female Up
+L Connector:Conn_01x01_Female J13
 U 1 1 60824D7A
-P 4750 3550
-F 0 "Up" H 4778 3576 50  0000 L CNN
-F 1 "Up" H 4778 3485 50  0000 L CNN
-F 2 "" H 4750 3550 50  0001 C CNN
-F 3 "~" H 4750 3550 50  0001 C CNN
-	1    4750 3550
-	1    0    0    -1  
+P 4150 3550
+F 0 "J13" H 4178 3576 50  0000 L CNN
+F 1 "Up" H 4178 3485 50  0000 L CNN
+F 2 "" H 4150 3550 50  0001 C CNN
+F 3 "~" H 4150 3550 50  0001 C CNN
+	1    4150 3550
+	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female Down
+L Connector:Conn_01x01_Female J15
 U 1 1 6082569C
-P 4750 3850
-F 0 "Down" H 4778 3876 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4778 3785 50  0000 L CNN
-F 2 "" H 4750 3850 50  0001 C CNN
-F 3 "~" H 4750 3850 50  0001 C CNN
-	1    4750 3850
-	1    0    0    -1  
+P 4150 3850
+F 0 "J15" H 4178 3876 50  0000 L CNN
+F 1 "Down" H 4178 3785 50  0000 L CNN
+F 2 "" H 4150 3850 50  0001 C CNN
+F 3 "~" H 4150 3850 50  0001 C CNN
+	1    4150 3850
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4900 1500 4900 3550
 Wire Wire Line
-	4900 3550 4550 3550
-Wire Wire Line
 	5400 1500 5400 3850
 Wire Wire Line
-	5400 3850 4550 3850
+	2350 2600 4400 2600
+Wire Wire Line
+	3950 1500 3950 2200
+Wire Wire Line
+	6450 1900 4400 1900
+Connection ~ 4400 1900
+Wire Wire Line
+	4400 1900 4400 2600
+Wire Wire Line
+	6450 2200 3950 2200
+Connection ~ 3950 2200
+Wire Wire Line
+	3950 2200 3950 2800
+Wire Wire Line
+	6450 2400 3450 2400
+Connection ~ 3450 2400
+Wire Wire Line
+	3450 2400 3450 3000
+Wire Wire Line
+	2350 3000 3450 3000
+Wire Wire Line
+	2350 3200 2900 3200
+$Comp
+L Connector:Conn_01x01_Female J12
+U 1 1 607F0495
+P 2150 3600
+F 0 "J12" H 2178 3626 50  0000 L CNN
+F 1 "Start" H 2178 3535 50  0000 L CNN
+F 2 "" H 2150 3600 50  0001 C CNN
+F 3 "~" H 2150 3600 50  0001 C CNN
+	1    2150 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2350 3400 2400 3400
+Wire Wire Line
+	2350 3600 2350 3750
+Wire Wire Line
+	2350 3800 1900 3800
+Wire Wire Line
+	1900 3800 1900 1500
+Wire Wire Line
+	6450 2500 2900 2500
+Connection ~ 2900 2500
+Wire Wire Line
+	2900 2500 2900 3200
+Wire Wire Line
+	2400 3400 2400 2700
+Wire Wire Line
+	2350 2800 3950 2800
+Wire Wire Line
+	6450 2800 4100 2800
+Wire Wire Line
+	4100 2800 4100 2700
+Wire Wire Line
+	4100 2700 2400 2700
+Connection ~ 2400 2700
+Wire Wire Line
+	2400 2700 2400 1500
+Wire Wire Line
+	2350 3750 5700 3750
+Wire Wire Line
+	5700 3750 5700 2700
+Wire Wire Line
+	5700 2700 6450 2700
+Connection ~ 2350 3750
+Wire Wire Line
+	2350 3750 2350 3800
+Wire Wire Line
+	7450 1800 7750 1800
+Wire Wire Line
+	7750 1800 7750 4150
+Wire Wire Line
+	7750 4150 6700 4150
+Wire Wire Line
+	6700 4150 6700 4400
+Wire Wire Line
+	7450 2100 7950 2100
+Wire Wire Line
+	7950 2100 7950 3900
+Wire Wire Line
+	7950 3900 6500 3900
+Wire Wire Line
+	6500 3900 6500 4400
+Wire Wire Line
+	7450 2400 8300 2400
+Wire Wire Line
+	8300 2400 8300 4250
+Wire Wire Line
+	8300 4250 7000 4250
+Wire Wire Line
+	7000 4250 7000 4400
+Wire Wire Line
+	7450 2700 7450 4350
+Wire Wire Line
+	7450 4350 6400 4350
+Wire Wire Line
+	6400 4350 6400 4400
+Wire Wire Line
+	6300 4400 5850 4400
+Wire Wire Line
+	5850 4400 5850 1200
+Connection ~ 5850 1200
+Wire Wire Line
+	5850 1200 6950 1200
+Wire Wire Line
+	6950 3400 6950 3600
+Wire Wire Line
+	6950 3600 6600 3600
+Wire Wire Line
+	6600 3600 6600 4400
+Wire Wire Line
+	7100 4400 7100 3550
+Connection ~ 4900 3550
+Wire Wire Line
+	4350 3550 4900 3550
+Wire Wire Line
+	4900 3550 7100 3550
+$Comp
+L Connector:Conn_01x01_Female J14
+U 1 1 6084079F
+P 3500 3550
+F 0 "J14" H 3528 3576 50  0000 L CNN
+F 1 "Up GND" H 3528 3485 50  0000 L CNN
+F 2 "" H 3500 3550 50  0001 C CNN
+F 3 "~" H 3500 3550 50  0001 C CNN
+	1    3500 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3550 3300 3850
+Wire Wire Line
+	3300 3900 1200 3900
+Wire Wire Line
+	1200 3900 1200 3600
+Connection ~ 1200 2800
+Wire Wire Line
+	1200 2800 1200 2600
+Connection ~ 1200 3000
+Wire Wire Line
+	1200 3000 1200 2800
+Connection ~ 1200 3200
+Wire Wire Line
+	1200 3200 1200 3000
+Connection ~ 1200 3400
+Wire Wire Line
+	1200 3400 1200 3200
+Connection ~ 1200 3600
+Wire Wire Line
+	1200 3600 1200 3400
+Wire Wire Line
+	4350 3850 5400 3850
+Wire Wire Line
+	6900 4400 6900 4050
+Wire Wire Line
+	6900 4050 5400 4050
+Wire Wire Line
+	5400 4050 5400 3850
+Connection ~ 5400 3850
+$Comp
+L Connector:Conn_01x01_Female J16
+U 1 1 60852FC9
+P 3500 3850
+F 0 "J16" H 3528 3876 50  0000 L CNN
+F 1 "Down GND" H 3528 3785 50  0000 L CNN
+F 2 "" H 3500 3850 50  0001 C CNN
+F 3 "~" H 3500 3850 50  0001 C CNN
+	1    3500 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3300 3850
+Wire Wire Line
+	3300 3850 3300 3900
 $EndSCHEMATC
