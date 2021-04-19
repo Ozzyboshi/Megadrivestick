@@ -352,35 +352,31 @@ Wire Wire Line
 Wire Wire Line
 	4400 1500 4400 1900
 $Comp
-L Connector:Conn_01x01_Female Up
+L Connector:Conn_01x01_Female J13
 U 1 1 60824D7A
-P 4750 3550
-F 0 "Up" H 4778 3576 50  0000 L CNN
-F 1 "Up" H 4778 3485 50  0000 L CNN
-F 2 "" H 4750 3550 50  0001 C CNN
-F 3 "~" H 4750 3550 50  0001 C CNN
-	1    4750 3550
-	1    0    0    -1  
+P 4150 3550
+F 0 "J13" H 4178 3576 50  0000 L CNN
+F 1 "Up" H 4178 3485 50  0000 L CNN
+F 2 "" H 4150 3550 50  0001 C CNN
+F 3 "~" H 4150 3550 50  0001 C CNN
+	1    4150 3550
+	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female Down
+L Connector:Conn_01x01_Female J15
 U 1 1 6082569C
-P 4750 3850
-F 0 "Down" H 4778 3876 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4778 3785 50  0000 L CNN
-F 2 "" H 4750 3850 50  0001 C CNN
-F 3 "~" H 4750 3850 50  0001 C CNN
-	1    4750 3850
-	1    0    0    -1  
+P 4150 3850
+F 0 "J15" H 4178 3876 50  0000 L CNN
+F 1 "Down" H 4178 3785 50  0000 L CNN
+F 2 "" H 4150 3850 50  0001 C CNN
+F 3 "~" H 4150 3850 50  0001 C CNN
+	1    4150 3850
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4900 1500 4900 3550
 Wire Wire Line
-	4900 3550 4550 3550
-Wire Wire Line
 	5400 1500 5400 3850
-Wire Wire Line
-	5400 3850 4550 3850
 Wire Wire Line
 	2350 2600 4400 2600
 Wire Wire Line
@@ -493,4 +489,66 @@ Wire Wire Line
 	6950 3600 6600 3600
 Wire Wire Line
 	6600 3600 6600 4400
+Wire Wire Line
+	7100 4400 7100 3550
+Connection ~ 4900 3550
+Wire Wire Line
+	4350 3550 4900 3550
+Wire Wire Line
+	4900 3550 7100 3550
+$Comp
+L Connector:Conn_01x01_Female J14
+U 1 1 6084079F
+P 3500 3550
+F 0 "J14" H 3528 3576 50  0000 L CNN
+F 1 "Up GND" H 3528 3485 50  0000 L CNN
+F 2 "" H 3500 3550 50  0001 C CNN
+F 3 "~" H 3500 3550 50  0001 C CNN
+	1    3500 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3550 3300 3850
+Wire Wire Line
+	3300 3900 1200 3900
+Wire Wire Line
+	1200 3900 1200 3600
+Connection ~ 1200 2800
+Wire Wire Line
+	1200 2800 1200 2600
+Connection ~ 1200 3000
+Wire Wire Line
+	1200 3000 1200 2800
+Connection ~ 1200 3200
+Wire Wire Line
+	1200 3200 1200 3000
+Connection ~ 1200 3400
+Wire Wire Line
+	1200 3400 1200 3200
+Connection ~ 1200 3600
+Wire Wire Line
+	1200 3600 1200 3400
+Wire Wire Line
+	4350 3850 5400 3850
+Wire Wire Line
+	6900 4400 6900 4050
+Wire Wire Line
+	6900 4050 5400 4050
+Wire Wire Line
+	5400 4050 5400 3850
+Connection ~ 5400 3850
+$Comp
+L Connector:Conn_01x01_Female J16
+U 1 1 60852FC9
+P 3500 3850
+F 0 "J16" H 3528 3876 50  0000 L CNN
+F 1 "Down GND" H 3528 3785 50  0000 L CNN
+F 2 "" H 3500 3850 50  0001 C CNN
+F 3 "~" H 3500 3850 50  0001 C CNN
+	1    3500 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3300 3850
+Wire Wire Line
+	3300 3850 3300 3900
 $EndSCHEMATC

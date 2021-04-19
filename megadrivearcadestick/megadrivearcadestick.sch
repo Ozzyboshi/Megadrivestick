@@ -551,4 +551,9 @@ $EndComp
 Connection ~ 3300 3850
 Wire Wire Line
 	3300 3850 3300 3900
+Wire Wire Line
+	6300 3100 3300 3100
+Wire Wire Line
+	3300 3100 3300 3550
+Connection ~ 3300 3550
 $EndSCHEMATC
