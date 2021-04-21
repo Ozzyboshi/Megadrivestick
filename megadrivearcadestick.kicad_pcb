@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 5)
+    (drawings 10)
     (tracks 130)
     (zones 0)
     (modules 12)
@@ -39,8 +39,8 @@
     (45 Margin user)
     (46 B.CrtYd user)
     (47 F.CrtYd user)
-    (48 B.Fab user hide)
-    (49 F.Fab user hide)
+    (48 B.Fab user)
+    (49 F.Fab user)
   )
 
   (setup
@@ -150,7 +150,7 @@
     (fp_text reference REF** (at 0 -5.3) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_4.3mm_M4 (at 0 5.3) (layer F.Fab)
+    (fp_text value MountingHole_4.3mm_M4 (at 0 5.3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 4.55 0) (layer F.CrtYd) (width 0.05))
@@ -169,7 +169,7 @@
     (fp_text reference REF** (at 0 -5.3) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_4.3mm_M4 (at 0 5.3) (layer F.Fab)
+    (fp_text value MountingHole_4.3mm_M4 (at 0 5.3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 4.55 0) (layer F.CrtYd) (width 0.05))
@@ -188,7 +188,7 @@
     (fp_text reference REF** (at 0 -5.3) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_4.3mm_M4 (at 0 5.3) (layer F.Fab)
+    (fp_text value MountingHole_4.3mm_M4 (at 0 5.3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 4.55 0) (layer F.CrtYd) (width 0.05))
@@ -207,7 +207,7 @@
     (fp_text reference REF** (at 0 -5.3) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_4.3mm_M4 (at 0 5.3) (layer F.Fab)
+    (fp_text value MountingHole_4.3mm_M4 (at 0 5.3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 4.55 0) (layer F.CrtYd) (width 0.05))
@@ -633,13 +633,20 @@
     )
   )
 
+  (gr_text https://github.com/Ozzyboshi/Megadrivestick (at 139.7762 110.5408) (layer Dwgs.User)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_line (start 180 115) (end 180 65) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 179 115) (end 179 116) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 608086B9))
+  (gr_arc (start 179 65) (end 180 65) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 60808562))
+  (gr_arc (start 101 65) (end 101 64) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 6080851E))
+  (gr_arc (start 101 115) (end 100 115) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_text "Down\nUp\nUp\nStart\nC\nB\nA\nLEFT\nRIGHT\n" (at 168.5036 90.3986) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_line (start 100 64) (end 180 64) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 100 116) (end 180 116) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 180 64) (end 180 116) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 100 64) (end 100 116) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 101 64) (end 179 64) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 101 116) (end 179 116) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 100 65) (end 100 115) (layer Edge.Cuts) (width 0.05))
 
   (segment (start 131.445 86.2584) (end 131.6482 86.2584) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 124.0282 93.6752) (end 124.0282 93.8784) (width 0.25) (layer B.Cu) (net 1))
