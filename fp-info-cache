@@ -1,4 +1,4 @@
-19082535965592106
+19087392917619106
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83033,3 +83033,24 @@ D-SUB 9 pin socket, Tyco P/N 4-1634584-2
 0
 11
 10
+footprints
+PinHeader_1x04_ModSilkS
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+footprints
+PinHeader_1x09_ModSilkS
+Through hole straight pin header, 1x09, 2.54mm pitch, single row
+Through hole pin header THT 1x09 2.54mm single row
+0
+9
+9
+footprints
+SolderJumper
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
+solder jumper open
+0
+3
+3
