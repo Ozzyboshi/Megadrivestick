@@ -26,10 +26,10 @@ Building this controller is very easy and very cheap, you will just need to sold
 * **1X** DB9 Female PCB Mount connector
 * **1X** DB9 Male-Female extender
 
-### PCB
-You can find the gerber files in the gerber directory of this repository, however if you want just to buy it I shared the full project at
+### Support the Project
+Since the project is open you are free to get the PCBs made by your preferred manufacturer, however in case you want to support the development, you can order them from PCBWay through this link:
 
-https://www.pcbway.com/project/shareproject/Megadrivestick.html
+[![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com/project/shareproject/Megadrivestick.html)
 
 ### Images
 ![My final result](imgs/P_20210510_183743.jpg?raw=true "My final result")
