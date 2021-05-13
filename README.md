@@ -6,7 +6,7 @@ Megadrive stick is an open hw implementation of a Megadrive controller (also kno
 You can take advantage of this little board to build your custom Sega arcade stick.
 
 This implementation features the following inputs:
-- up ( with an extra pin if you want to map an additional button to the canonic up in your directional stick)
+- up (with an extra pin if you want to map an additional button to the canonic up in your directional stick)
 - down
 - left
 - right
@@ -35,6 +35,22 @@ https://www.pcbway.com/project/shareproject/Megadrivestick.html
 ![My final result](imgs/P_20210510_183743.jpg?raw=true "My final result")
 ![3d render](imgs/megadrivearcadestick.png?raw=true "3d render")
 ![schematics](imgs/schematics.png?raw=true "schematics")
+
+### License
+The Megadrivestick documentation, including the design itself, is copyright &copy; SukkoPera 2018-2019.
+
+Megadrivestick is Open Hardware licensed under the [CERN OHL v. 1.2](http://ohwr.org/cernohl).
+
+You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. This documentation is distributed *as is* and WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES whatsoever with respect to its functionality, operability or use, including, without limitation, any implied warranties OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE or infringement. We expressly disclaim any liability whatsoever for any direct, indirect, consequential, incidental or special damages, including, without limitation, lost revenues, lost profits, losses resulting from business interruption or loss of data, regardless of the form of action or legal theory under which the liability may be asserted, even if advised of the possibility or likelihood of such damages.
+
+A copy of the full license is included in file [LICENSE.pdf](LICENSE.pdf), please refer to it for applicable conditions. In order to properly deal with its terms, please see file [LICENSE_HOWTO.pdf](LICENSE_HOWTO.pdf).
+
+The contact points for information about manufactured Products (see section 4.2) are listed in file [PRODUCT.md](PRODUCT.md).
+
+Any modifications made by Licensees (see section 3.4.b) shall be recorded in file [CHANGES.md](CHANGES.md).
+
+The Documentation Location of the original project is https://github.com/Ozzyboshi/Megadrivestick/.
+
 
 
 ### Thanks
