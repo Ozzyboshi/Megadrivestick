@@ -36,6 +36,12 @@ Since the project is open you are free to get the PCBs made by your preferred ma
 ![3d render](imgs/megadrivearcadestick.png?raw=true "3d render")
 ![schematics](imgs/schematics.png?raw=true "schematics")
 
+Final result using a simple electric box + some cheap buttons and directional pad from aliexpress.
+Final cost of materials about 20 Euros.
+
+![final](imgs/finish.jpeg?raw=true "schematics")
+
+
 ### License
 The Megadrivestick documentation, including the design itself, is copyright &copy; SukkoPera 2018-2019.
 
