@@ -43,7 +43,7 @@ Final cost of materials about 20 Euros.
 
 
 ### License
-The Megadrivestick documentation, including the design itself, is copyright &copy; SukkoPera 2018-2019.
+The Megadrivestick documentation, including the design itself, is copyright &copy; Ozzyboshi 2020-2021.
 
 Megadrivestick is Open Hardware licensed under the [CERN OHL v. 1.2](http://ohwr.org/cernohl).
 
